@@ -29,92 +29,70 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Route exact path="">
-          {" "}
           <Home />
         </Route>
         <Route exact path="/login">
-          {" "}
           <Login />
         </Route>
         <Route exact path="/setting">
-          {" "}
           <Setting />
         </Route>
         <Route exact path="/Stagiairelist">
-          {" "}
           <StagiaireList />
         </Route>
         <Route exact path="/Entrepreneurlist">
-          {" "}
           <EntrepreneurList />
         </Route>
         <Route exact path="/Userlist">
-          {" "}
           <UserList />
         </Route>
         <Route exact path="/FreelancerList">
-          {" "}
           <FreelancerList />
         </Route>
         <Route exact path="/Stagiaire/:id">
-          {" "}
           <StagiaireComp />
         </Route>
         <Route exact path="/Entrepreneur/:id">
-          {" "}
           <EntrepreneurComp />
         </Route>
         <Route exact path="/user/:id">
-          {" "}
           <UserComp />
         </Route>
         <Route exact path="/freelancer/:id">
-          {" "}
           <FreelancerComp />
         </Route>
         <Route exact path="/Entrepreneurupdate/:id">
-          {" "}
           <EntrepreneurUpdate />
         </Route>
         <Route exact path="/Stagiaireupdate/:id">
-          {" "}
           <StagiaireUpdate />
         </Route>
         <Route exact path="/FreelancerUpdate/:id">
-          {" "}
           <FreelancerUpdate />
         </Route>
         <Route exact path="/ForgetPassword">
-          {" "}
           <ForgetPassword />
         </Route>
         <Route exact path="/AddUser">
-          {" "}
           <AddUser />
         </Route>
         <Route exact path="/ResetPassword/:id">
-          {" "}
           <ResetPassword />
         </Route>
         <Route exact path="/CallCenterList">
-          {" "}
-          <CallCenter />{" "}
+          <CallCenter />
         </Route>
         <Route exact path="/Call/:id">
-          {" "}
-          <Call />{" "}
+          <Call />
         </Route>
         <Route exact path="/Contact/:id">
-          {" "}
-          <Contact />{" "}
+          <Contact />
         </Route>
         <Route exact path="/ContactUpdate/:id">
-          {" "}
-          <ContactUpdate />{" "}
+          <ContactUpdate />
         </Route>
         <Route exact path="/CallUpdate/:id">
-          {" "}
-          <CallUpdate />{" "}
+          <CallUpdate />
         </Route>
       </BrowserRouter>
     </div>
