@@ -28,8 +28,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Route exact path="">
-          {" "}
+        <Route exact path="/">
           <Home />
         </Route>
         <Route exact path="/login">
