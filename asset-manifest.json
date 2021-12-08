@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/techapp/static/css/main.f4e06c9c.chunk.css",
-    "main.js": "/techapp/static/js/main.8eee4883.chunk.js",
-    "main.js.map": "/techapp/static/js/main.8eee4883.chunk.js.map",
-    "runtime-main.js": "/techapp/static/js/runtime-main.fd54d632.js",
-    "runtime-main.js.map": "/techapp/static/js/runtime-main.fd54d632.js.map",
-    "static/js/2.6ef3e57e.chunk.js": "/techapp/static/js/2.6ef3e57e.chunk.js",
-    "static/js/2.6ef3e57e.chunk.js.map": "/techapp/static/js/2.6ef3e57e.chunk.js.map",
-    "static/js/3.caacc282.chunk.js": "/techapp/static/js/3.caacc282.chunk.js",
-    "static/js/3.caacc282.chunk.js.map": "/techapp/static/js/3.caacc282.chunk.js.map",
-    "index.html": "/techapp/index.html",
-    "static/css/main.f4e06c9c.chunk.css.map": "/techapp/static/css/main.f4e06c9c.chunk.css.map",
-    "static/js/2.6ef3e57e.chunk.js.LICENSE.txt": "/techapp/static/js/2.6ef3e57e.chunk.js.LICENSE.txt",
-    "static/media/entrepreneur.b31c0082.png": "/techapp/static/media/entrepreneur.b31c0082.png",
-    "static/media/logo.fd9abca4.png": "/techapp/static/media/logo.fd9abca4.png",
-    "static/media/stagiaire.804cf944.png": "/techapp/static/media/stagiaire.804cf944.png"
+    "main.css": "/tech-app/static/css/main.f4e06c9c.chunk.css",
+    "main.js": "/tech-app/static/js/main.1e7e3412.chunk.js",
+    "main.js.map": "/tech-app/static/js/main.1e7e3412.chunk.js.map",
+    "runtime-main.js": "/tech-app/static/js/runtime-main.90ad2e53.js",
+    "runtime-main.js.map": "/tech-app/static/js/runtime-main.90ad2e53.js.map",
+    "static/js/2.45ee2c30.chunk.js": "/tech-app/static/js/2.45ee2c30.chunk.js",
+    "static/js/2.45ee2c30.chunk.js.map": "/tech-app/static/js/2.45ee2c30.chunk.js.map",
+    "static/js/3.65ee71b4.chunk.js": "/tech-app/static/js/3.65ee71b4.chunk.js",
+    "static/js/3.65ee71b4.chunk.js.map": "/tech-app/static/js/3.65ee71b4.chunk.js.map",
+    "index.html": "/tech-app/index.html",
+    "static/css/main.f4e06c9c.chunk.css.map": "/tech-app/static/css/main.f4e06c9c.chunk.css.map",
+    "static/js/2.45ee2c30.chunk.js.LICENSE.txt": "/tech-app/static/js/2.45ee2c30.chunk.js.LICENSE.txt",
+    "static/media/entrepreneur.b31c0082.png": "/tech-app/static/media/entrepreneur.b31c0082.png",
+    "static/media/logo.fd9abca4.png": "/tech-app/static/media/logo.fd9abca4.png",
+    "static/media/stagiaire.804cf944.png": "/tech-app/static/media/stagiaire.804cf944.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd54d632.js",
-    "static/js/2.6ef3e57e.chunk.js",
+    "static/js/runtime-main.90ad2e53.js",
+    "static/js/2.45ee2c30.chunk.js",
     "static/css/main.f4e06c9c.chunk.css",
-    "static/js/main.8eee4883.chunk.js"
+    "static/js/main.1e7e3412.chunk.js"
   ]
 }
