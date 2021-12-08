@@ -1,6 +1,6 @@
 {
-  "homepage": "http://yoouali.github.io/tech-app",
-  "name": "hr",
+  "homepage": "http://yoouali.github.io/tech-app/",
+  "name": "tech-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
