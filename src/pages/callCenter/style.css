@@ -1,0 +1,504 @@
+.callCenterlist {
+  width: 90%;
+  background-color: white;
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.callCenterNavBar {
+  width: 95%;
+  padding: 5px 10px;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.callCenterNavBarItemes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.callCenterNavBarTitle {
+  font-family: "Rajdhani";
+  font-size: large;
+  font-weight: bold;
+}
+.callCenterNavBarIteme {
+  padding: 10px;
+  font-family: "Rajdhani";
+}
+.callCenterNavBarItemBar {
+  font-weight: bold;
+}
+.callCenterNavBarIteme:hover {
+  font-weight: bold;
+}
+.calls {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.callsList {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.callsListHeader {
+  width: 100%;
+  height: 40px;
+  padding: 20px 10px;
+  border-bottom: 2px solid #117db0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Rajdhani";
+  font-weight: 600;
+  color: #117db0;
+}
+.callsListContact {
+  width: 150px;
+}
+.callsListDate {
+  width: 100px;
+}
+.callsListTime {
+  width: 80px;
+}
+.callsListClient {
+  width: 150px;
+}
+.callsListStaff {
+  width: 150px;
+}
+
+.callsListItem {
+  width: 100%;
+  height: 40px;
+  padding: 20px 10px;
+  border-bottom: 2px solid #117db0;
+  border-right: 2px solid #117db0;
+  border-left: 2px solid #117db0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Rajdhani";
+  font-weight: 600;
+  color: #117db0;
+}
+.callsTypeIcon {
+  width: 40px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.callsTypeIcon img {
+  width: 50%;
+}
+
+.callsTypeIcon .callTypeIconText {
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  width: 80px;
+  transform: translate(0, -50%);
+  text-align: center;
+  display: none;
+  font-size: small;
+  background-color: #f7f7f7;
+}
+
+.callsTypeIcon:hover .callTypeIconText {
+  display: block;
+}
+
+.callsListItemContact {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#callCenterBarCalls {
+  font-weight: bold;
+}
+
+.contacts {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contactsHeader {
+  width: 100%;
+  margin: auto;
+}
+.contactsSerch {
+  height: 40px;
+  float: right;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.contactsInputSerch {
+  width: 60%;
+  height: 100%;
+  border: 1px solid #117db0;
+  padding-left: 5px;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #117db0;
+  outline: none;
+}
+
+.contactsButton {
+  width: 100px;
+  height: 100%;
+}
+
+.contactsList {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contactsListItem {
+  width: 150px;
+  background-color: #117db0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Rajdhani";
+  margin-bottom: 20px;
+}
+.contactsListItemName {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: medium;
+  font-weight: 700;
+  color: white;
+}
+.contactsListItemName p {
+  font-size: xx-small;
+  padding-right: 2px;
+}
+.contactsListItemNumber {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: medium;
+  font-weight: 700;
+  color: white;
+}
+.contactsListItemNumber p {
+  font-size: xx-small;
+  padding-right: 2px;
+}
+/* .contactsListItemOperation{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#contactListOperationDelete{color: red;}
+#contactListOperationEdit{color: white;} */
+.contactsListItemDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.contactsListItemDetailsCalls {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contactsListItemDetailsCalls p {
+  font-size: x-small;
+  color: white;
+}
+
+.contactsListItemDetailsTime {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contactsListItemDetailsTime p {
+  font-size: x-small;
+  color: white;
+}
+
+.callBoard {
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: -1px 1px 2px rgba(227, 227, 227, 0.2),
+    1px -1px 2px rgba(227, 227, 227, 0.2),
+    -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(227, 227, 227, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+.callHeader {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.callBack {
+  width: 60px;
+  height: 40px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.callBack img {
+  width: 40%;
+  padding-top: 8px;
+}
+
+.callBoard .Board {
+  width: 80%;
+  background-color: #117db0;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.callClient {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Rajdhani";
+  font-size: xx-large;
+}
+.call {
+  width: 80%;
+}
+
+.ContactsLoading {
+  width: 100%;
+  height: 100%;
+  background-color: #117db0;
+  text-align: center;
+  margin: auto;
+}
+.ContactsLoading svg {
+  width: 100px;
+  height: 100px;
+}
+
+/***************************************************
+ * Generated by SVG Artista on 12/3/2021, 2:29:32 AM
+ * MIT license (https://opensource.org/licenses/MIT)
+ * W. https://svgartista.net
+ **************************************************/
+
+@keyframes animate-svg-stroke-1 {
+  0% {
+    stroke-dashoffset: 3064.314697265625px;
+    stroke-dasharray: 3064.314697265625px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 3064.314697265625px;
+  }
+}
+
+.svg-elem-1 {
+  animation: animate-svg-stroke-1 3s ease 0s both;
+}
+
+/* ADD CALL ADD CONTACT */
+.callCenterAdd {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  align-items: center;
+}
+.callCenterAddHide {
+  width: 100%;
+}
+
+/* ADD call */
+.callCenterAddCall {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(17, 125, 176, 0.6);
+  width: 400px;
+  margin-bottom: 10px;
+}
+.callCenterAddHide:hover .callCenterAddCall {
+  display: none !important;
+}
+.callCenterAddTitle {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Roboto";
+  color: white;
+  margin-bottom: 10px;
+}
+.callCenterAddCallDoubleGroup {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.callCenterAddCallDoubleInput {
+  width: 45%;
+}
+.callCenterAddCallDoubleInput input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: "Rajdhani";
+  font-size: large;
+  background-color: #117db0;
+  color: white;
+  padding-left: 10px;
+}
+.callCenterAddCallDoubleInput select {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: "Rajdhani";
+  font-size: large;
+  background-color: #117db0;
+  color: white;
+  padding-left: 10px;
+}
+.callCenterAddCallDoubleInput label {
+  font-family: "Rajdhani";
+  font-size: small;
+  color: white;
+}
+
+.callCenterAddCallGroupe {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.callCenterAddCallGroupe input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: "Rajdhani";
+  font-size: large;
+  background-color: #117db0;
+  color: white;
+  padding-left: 10px;
+}
+.callCenterAddCallGroupe input::placeholder {
+  color: #ccc;
+}
+.callCenterAddCallGroupe textarea::placeholder {
+  color: #ccc;
+}
+.callCenterAddCallDoubleInput input::placeholder {
+  color: #ccc;
+}
+.callCenterAddCallGroupe textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 40px;
+  min-height: 40px;
+  max-height: 200px;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: "Rajdhani";
+  font-size: large;
+  background-color: #117db0;
+  color: white;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.callCenterAddCallGroupe label {
+  font-family: "Rajdhani";
+  font-size: small;
+  color: white;
+}
+
+.CallCenterAddError {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ff0033;
+  font-family: "Poppins";
+  font-size: small;
+  font-weight: bold;
+  display: none;
+}
+.CallCenterAddTail {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.CallCenterAddTail button {
+  background-color: none;
+  border: none;
+  color: #ccc;
+  font-family: "Rajdhani";
+  font-size: medium;
+  height: 30px;
+  cursor: pointer;
+}
+.CallCenterAddTail button:hover {
+  color: white;
+}
+/* ************************************** */
+
+/* add contact  */
+/* *************************************** */
+
+/* ****************************************************** */

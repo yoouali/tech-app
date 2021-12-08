@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300&display=swap');
+
+.stageBar{
+    width: 90%;
+    background-color: white;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.stageTitle{
+    width: 60%;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-family: 'rajdhani';
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stageInfo{
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.leftInfo{
+    min-width: 200px;
+    height: 100%;
+    background-color: white;
+    border-right: 1px solid #117DB0;
+}
+.stageStatus{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    color: white;
+    font-family: 'rajdhani';
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#stageNotActive{background-color: red;}
+#stageActive{background-color: #117DB0;}
+#stageOver{background-color: yellow;}
+#stageFineshd{background-color: #11B03E;}
+
+.stageFile{
+    width: 80%;
+    padding-left: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+.stageFile p{
+    font-family: 'Poppins';
+    font-size: medium;
+    font-weight: 600;
+    color: #117DB0;
+    text-decoration-line: underline;
+}
+
+.stageButton{
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+.stageButton button{
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+}
+#stageButtonRemove{background-color: red;}
+
+.rightInfo{
+    flex:auto 1 1;
+    height: 100%;
+    background-color: white;
+    padding-top: 5px;
+}
+
+.stageDate{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #117DB0;
+}
+.dateInfo{
+    font-family: 'rajdhani';
+    font-size: large;
+    color: #117DB0;
+}
+
+.perInfo{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.perInfoTitle{
+    font-family: 'rajdhani';
+    font-size: large;
+    color: #117DB0;
+}
+.perInfoTitle p span{
+    display: Inline-block;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.perInfoTitle hr{
+    width: 180px;
+    border: none;
+    border-top: 1px solid #117DB0;
+}
+#Desc{
+    width: 110px !important;
+}
+
+.descInfo{
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.descInfo p{
+    font-family: 'Poppins';
+    font-size: small;
+    font-weight:200;
+    color: #117DB0;
+}
+
+.perInfoData{
+    top: -10px;
+    padding: 10px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.groupeInfo{
+    margin-bottom: 10px;
+}
+
+.infoTitle{
+    font-family: 'Roboto';
+    font-size: x-small;
+    color: #117DB0;
+    width: fit-content;
+    background-color: white;
+    padding-right: 2px;
+    padding-left: 2px;
+    transform: translate(0.1rem, 0);
+}
+
+.infoValue{
+    width: 200px;
+    overflow: auto;
+    scrollbar-width: none;
+    border: 1px solid #117DB0;
+    border-radius: 2px;
+    color: #117DB0;
+    font-family: 'Poppins';
+    font-size: medium;
+    padding: 5px;
+    white-space: nowrap;
+}
+.infoValue p{
+    width: fit-content;
+}
+.infoValue::-webkit-scrollbar {
+    display: none;
+  }
+
