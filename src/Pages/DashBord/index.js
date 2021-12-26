@@ -1,6 +1,7 @@
 import React from "react";
 import "../../Styling/index.css";
 import Header from "../../Components/Header";
+import API from "../../api.js";
 
 function DashBord() {
   return (
